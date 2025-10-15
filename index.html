@@ -2,203 +2,99 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EDUJOGOS - Educação com Diversão</title>
-    <link rel="stylesheet" href="./main.css">
+    <title>EduJogos | Simuladores e Jogos Educacionais</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <header>
-        <br>
-        <h1>EDUJOGOS</h1>
-        <h2>Jogos Educacionais</h2>
+        <div class="container">
+        <h1>EduJogos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#projetos">Projetos</a></li></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <div class="navegador">
-        <nav>
-            <div class="logo">
-                <img src="./imagem.png" alt="Imagem padrão de teste">
+    <section id="hero" class="hero">
+        <div class="container">
+                <div class="hero-content">
+                    <h2>O Laboratório de Ciências na Sua Tela!</h2>
+                    <p>Simuladores e Jogos Virtuais para auxiliar professores a realizar experimentos complexos e interativos em qualquer sala de aula. Aprendizado prático e seguro.</p>
+                    <a href="#projetos" class="btn">Ver Projetos</a>
+                </div>
+                <img src="img/placeholder-ciencia.png" alt="Ilustração de aprendizado de ciências" class="hero-img">
             </div>
+    </section>
+    <section id="projetos" class="projetos">
+        <div class="container">
+            <h3>Nosso Portfólio de Inovação</h3>
+            <div class="projeto-list">
+                <div class="projeto-card">
+                    <img src="img/placeholder-quimica.png" alt="Simulador de Reações Químicas">
+                    <h4>Simulador de Reações Químicas</h4>
+                    <p>Permite misturar substâncias em um ambiente virtual seguro, observando as reações e a estequiometria.</p>
+                </div>
+                <div class="projeto-card">
+                    <img src="img/placeholder-fisica.png" alt="Jogo de Leis de Newton">
+                    <h4>Jogo de Leis de Newton</h4>
+                    <p>Um jogo divertido onde o aluno aplica as leis da física para resolver quebra-cabeças de movimento e força.</p>
+                </div>
+                <div class="projeto-card">
+                    <img src="img/placeholder-simuladorpopulacional.png" alt="Simulador Populacional">
+                    <h4>Simulador Populacional</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ullam repudiandae, incidunt explicabo quidem sequi magnam.</p>
+                </div>
+                <div class="projeto-card">
+                    <img src="img/placeholder-modelo.png" alt="Conteúdo em Desenvolvimento">
+                    <h4>Conteúdo em Desenvolvimento</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ullam repudiandae, incidunt explicabo quidem sequi magnam.</p>
+                </div>
+                <div class="projeto-card">
+                    <img src="img/placeholder-modelo.png" alt="Conteúdo em Desenvolvimento">
+                    <h4>Conteúdo em Desenvolvimento</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ullam repudiandae, incidunt explicabo quidem sequi magnam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato" class="contato">
+        <div class="container">
+            <h3>Fale Conosco e Leve o EduJogos para sua Escola!</h3>
+            <p>Preencha o formulário e receba uma demonstração gratuita dos nossos simuladores.</p>
+            <form action="#" method="POST" class="contact-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
 
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-            <ul class="contatos">
-                <li><a href="https://github.com/PortoBarreto92" target="_blank"><img src="./img/github_logo.png" alt="Github"></a></li>
-                <li><a href="https://www.linkedin.com/in/rodolfo-porto-barreto/" target="_blank"><img src="./img/linkedin_logo.png" alt="LinkedIn"></a></li>
-            </ul>
-        </nav>
-        <br>
-    </div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
 
-    <aside>
-        aside
-        <img src="./imagem.png" alt="Imagem padrão de teste">
-    </aside>
-    <main>
-        <article>
-            <h3>Título</h3>
-            <figure>
-                <img src="./imagem.png" alt="Imagem padrão de teste">
-            </figure>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis illo odit sequi repudiandae blanditiis reprehenderit possimus eveniet, iusto id minus assumenda doloribus. Doloremque alias consectetur, ea quas eos voluptatum doloribus.
-            </p>
-        </article>
-        <article>
-            <h3>Título</h3>
-            <figure>
-                <img src="./imagem.png" alt="Imagem padrão de teste">
-            </figure>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa sequi, explicabo nobis rerum facere error cumque eaque mollitia deleniti cum nam fuga quia nisi facilis eius voluptatem. Aut, commodi quos?
-            </p>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa sequi, explicabo nobis rerum facere error cumque eaque mollitia deleniti cum nam fuga quia nisi facilis eius voluptatem. Aut, commodi quos?
-            </p>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa sequi, explicabo nobis rerum facere error cumque eaque mollitia deleniti cum nam fuga quia nisi facilis eius voluptatem. Aut, commodi quos?
-            </p>
-        </article>
-        <article>
-            <h3>Título</h3>
-            <figure>
-                <img src="./imagem.png" alt="Imagem padrão de teste">
-            </figure>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, animi? Illum corporis sequi impedit sapiente labore distinctio quaerat error, repellendus hic pariatur expedita libero quisquam, cupiditate sit blanditiis, ratione facilis?
-            </p>
-        </article>
-        <article>
-            <h3>Título</h3>
-            <figure>
-                <img src="./imagem.png" alt="Imagem padrão de teste">
-            </figure>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi officia, asperiores dolor facere modi recusandae nemo dicta maxime, temporibus praesentium, odit sed magnam saepe perspiciatis necessitatibus in obcaecati inventore voluptate.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam modi tenetur beatae sapiente eligendi, ut inventore laborum quia eaque veritatis illo earum odio numquam nisi, dignissimos nemo at ea explicabo?
-            </p>
-        </article>
-        <article>
-            <h3>Título</h3>
-            <figure>
-                <img src="./imagem.png" alt="Imagem padrão de teste">
-            </figure>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex magnam tempore velit adipisci mollitia, officiis quibusdam officia pariatur incidunt, numquam voluptas labore provident perspiciatis eum distinctio earum similique non aut!
-            </p>
-        </article>
-        <article>
-            <h3>Título</h3>
-            <figure>
-                <img src="./imagem.png" alt="Imagem padrão de teste">
-            </figure>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex magnam tempore velit adipisci mollitia, officiis quibusdam officia pariatur incidunt, numquam voluptas labore provident perspiciatis eum distinctio earum similique non aut!
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam modi tenetur beatae sapiente eligendi, ut inventore laborum quia eaque veritatis illo earum odio numquam nisi, dignissimos nemo at ea explicabo?
-            </p>
-        </article>
-        <article>
-            <h3>Título</h3>
-            <figure>
-                <img src="./imagem.png" alt="Imagem padrão de teste">
-            </figure>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex magnam tempore velit adipisci mollitia, officiis quibusdam officia pariatur incidunt, numquam voluptas labore provident perspiciatis eum distinctio earum similique non aut!
-            </p>
-        </article>
-        <article>
-            <h3>Título</h3>
-            <figure>
-                <img src="./imagem.png" alt="Imagem padrão de teste">
-            </figure>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex magnam tempore velit adipisci mollitia, officiis quibusdam officia pariatur incidunt, numquam voluptas labore provident perspiciatis eum distinctio earum similique non aut!
-            </p>
-        </article>
-        <article>
-            <h3>Título</h3>
-            <figure>
-                <img src="./imagem.png" alt="Imagem padrão de teste">
-            </figure>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex magnam tempore velit adipisci mollitia, officiis quibusdam officia pariatur incidunt, numquam voluptas labore provident perspiciatis eum distinctio earum similique non aut!
-            </p>
-        </article>
-        <article>
-            <h3>Título</h3>
-            <figure>
-                <img src="./imagem.png" alt="Imagem padrão de teste">
-            </figure>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex magnam tempore velit adipisci mollitia, officiis quibusdam officia pariatur incidunt, numquam voluptas labore provident perspiciatis eum distinctio earum similique non aut!
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam modi tenetur beatae sapiente eligendi, ut inventore laborum quia eaque veritatis illo earum odio numquam nisi, dignissimos nemo at ea explicabo?
-            </p>
-        </article>
-    </main>
+                <label for="escola">Escola/Instituição:</label>
+                <input type="text" id="escola" name="escola">
+                
+                <label for="mensagem">Mensagem/Interesse:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar Demonstração</button>
+            </form>
+        </div>
+    </section>
     <footer>
-        footer
-        <img src="./imagem.png" alt="Imagem padrão de teste">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 EduJogos - Seu Portfólio de Jogos Educacionais. Desenvolvido por [Seu Nome/Nome do Projeto].</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/rodolfo-porto-barreto/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="http://lattes.cnpq.br/1293495437930627" target="_blank" title="Currículo Lattes"><i class="fas fa-graduation-cap"></i></a>
+                    <a href="https://github.com/PortoBarreto92" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
-<br><br>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
